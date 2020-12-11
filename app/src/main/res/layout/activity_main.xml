@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Facebook Login"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_margin="5dp"
+        android:background="#3737b8"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/fb"/>
+
+    <EditText
+        android:id="@+id/usernameET"
+        android:layout_width="match_parent"
+        android:hint="Enter User Name"
+        android:inputType="text"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:id="@+id/usermaildET"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Mail Id"
+        android:inputType="text"/>
+
+
+
+    <EditText
+        android:id="@+id/genderET"
+        android:layout_width="match_parent"
+        android:hint="Enter Gender"
+        android:inputType="text"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:id="@+id/ageET"
+        android:layout_width="match_parent"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:layout_height="60dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/loginBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:text="Register" />
+
+</LinearLayout>
+
+<!--    <Button-->
+
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="Button1" />-->
+
+<!--    <Button-->
+
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="Button 2" />-->
+    
+    
+
+
+
+</LinearLayout>
+
+</ScrollView>
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinner"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_margin="20dp"/>-->
+
+<!--</LinearLayout>-->

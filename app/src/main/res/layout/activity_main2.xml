@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/welcomeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:visibility="gone"
+        android:textColor="#000" />
+
+
+
+
+        <Button
+            android:id="@+id/showBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="SHOW"
+            android:drawableLeft="@drawable/show"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/hideBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="HIDE"
+            android:drawableRight="@drawable/hide"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:id="@+id/maleradiBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"/>
+
+            <RadioButton
+                android:id="@+id/femaleradiBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"/>
+
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
