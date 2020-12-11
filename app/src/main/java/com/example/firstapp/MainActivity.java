@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     Bundle bundle;
     EditText etusername,etage,etgender,etmail;
     String uname,uage,ugender,umail;
-
+//test jenkins
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         etage=findViewById(R.id.ageET);
         etmail=findViewById(R.id.usermaildET);
         bundle=new Bundle();
+        Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show();
 
         btn.setOnClickListener(view -> {
             uname=etusername.getText().toString().trim();
