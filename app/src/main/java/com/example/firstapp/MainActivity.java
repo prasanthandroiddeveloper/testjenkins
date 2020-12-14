@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     Bundle bundle;
     EditText etusername,etage,etgender,etmail;
     String uname,uage,ugender,umail;
-//test jenkins on monday
+//test jenkins on monday testing again 2.55pm
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
